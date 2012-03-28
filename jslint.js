@@ -2918,7 +2918,7 @@ klass:              do {
 
                 if (the_statement.id === '(') {
                     if (the_statement.first.id === 'new') {
-                        warn('bad_new');
+                        //warn('bad_new');
                     }
                 } else if (!the_statement.assign &&
                         the_statement.id !== 'delete' &&
